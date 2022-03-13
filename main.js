@@ -4,6 +4,7 @@ for (let i=1; i <= 151; i++) {
   let image = document.createElement('img');
   image.src = `images/izumijoshreception${i}.jpg`;
   image.loading = 'lazy';
+  image.className = 'gallery-image';
   container.appendChild(image);
 }
 
